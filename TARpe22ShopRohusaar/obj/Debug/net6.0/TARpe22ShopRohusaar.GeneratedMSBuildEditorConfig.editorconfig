@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TARpe22ShopRohusaar
+build_property.RootNamespace = TARpe22ShopRohusaar
+build_property.ProjectDir = C:\Users\opilane\source\repos\TARpe22ShopRohusaar\TARpe22ShopRohusaar\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\opilane\source\repos\TARpe22ShopRohusaar\TARpe22ShopRohusaar
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Cars/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xDcmVhdGVVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Cars/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Cars/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Cars/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Cars/_Images.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xfSW1hZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Email/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/RealEstates/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZXNcQ3JlYXRlVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/RealEstates/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/RealEstates/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/RealEstates/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/RealEstates/_Images.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZXNcX0ltYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Spaceships/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VzaGlwc1xDcmVhdGVVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Spaceships/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VzaGlwc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Spaceships/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VzaGlwc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Spaceships/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VzaGlwc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Spaceships/_Images.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VzaGlwc1xfSW1hZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/WeatherForecasts/City.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlckZvcmVjYXN0c1xDaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/WeatherForecasts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlckZvcmVjYXN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/TARpe22ShopRohusaar/TARpe22ShopRohusaar/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-387rshxevm
