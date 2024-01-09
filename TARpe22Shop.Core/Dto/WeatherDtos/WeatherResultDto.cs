@@ -1,46 +1,49 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace TARpe22ShopRohusaar.Core.Dto.WeatherDtos
 {
-    public class WeatherResultDto
+    public class WeatherResultDtoOW
     {
-        public DateTime EffectiveDate { get; set; }
-        public int EffectiveEpochDate { get; set; }
-        public int Severity { get; set; }
-        public string Text { get; set; }
-        public string Category { get; set; }
-        public DateTime EndDate { get; set; }
-        public int EndEpochDate { get; set; }
-
-        public string MobileLink { get; set; }
-        public string Link { get; set; }
-
-        public DateTime DailyForecastsDay { get; set; }
-        public int DailyForecastsEpochDate { get; set; }
-
-        public double TempMinValue { get; set; }
-        public string TempMinUnit { get; set; }
-        public int TempMinUnitType { get; set; }
-
-        public double TempMaxValue { get; set; }
-        public string TempMaxUnit { get; set; }
-        public int TempMaxUnitType { get; set; }
-
-        public int DayIcon { get; set; }
-        public bool DayHasPrecipitation { get; set; }
-        public string DayIconPhrase { get; set; }
-        public string DayPrecipitationType { get; set; }
-        public string DayPrecipitationIntensity { get; set; }
-
-        public int NightIcon { get; set; }
-        public bool NightHasPrecipitation { get; set; }
-        public string NightIconPhrase { get; set; }
-        public string NightPrecipitationType { get; set; }
-        public string NightPrecipitationIntensity { get; set; }
+        public double CoordLon { get; set; }
+        public double CoordLat { get; set; }
+        public int WeatherId { get; set; }
+        public string WeatherMain { get; set; }
+        public string WeatherDescription { get; set; }
+        public string WeatherIcon { get; set; }
+        public string WeatherBase { get; set;}
+        public double MainTemp { get; set; }
+        public double MainFeelsLike { get; set; }
+        public double MainTempMin { get; set; }
+        public double MainTempMax { get; set; }
+        public int MainPressure { get; set; }
+        public int MainHumidity { get; set; }
+        public int MainSeaLevel { get; set; }
+        public int MainGrndLevel { get; set; }
+        public int Visibility { get; set; }
+        public double WindSpeed { get; set; }
+        public int WindDeg { get; set; }
+        public double WindGust { get; set; }
+        public double Rain1h { get; set; }
+        public double Rain3h { get; set; }
+        public double Snow1h { get; set; }
+        public double Snow3h { get; set; }
+        public int CloudsAll { get; set; }
+        public int Dt { get; set; }
+        public int SysType { get; set; }
+        public int SysId { get; set; }
+        public string SysMessage { get; set; }
+        public string SysCountry { get; set; }
+        public int SysSunrise { get; set; }
+        public int SysSunset { get; set; }
+        public int Timezone { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Cod { get; set; }
 
     }
 }

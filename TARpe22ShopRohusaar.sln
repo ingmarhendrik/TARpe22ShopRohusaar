@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TARpe22ShopRohusaar.Spacesh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TARpe22ShopRohusaar", "TARpe22ShopRohusaar\TARpe22ShopRohusaar.csproj", "{33B36304-7CB1-44DE-A28D-30C6E09B1CDF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TARpe22ShopRohusaar.SignalRChatMVC", "TARpe22ShopRohusaar.SignalRChatMVC\TARpe22ShopRohusaar.SignalRChatMVC.csproj", "{0E758E22-3CBC-4861-B231-320D055472B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{33B36304-7CB1-44DE-A28D-30C6E09B1CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33B36304-7CB1-44DE-A28D-30C6E09B1CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33B36304-7CB1-44DE-A28D-30C6E09B1CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E758E22-3CBC-4861-B231-320D055472B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E758E22-3CBC-4861-B231-320D055472B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E758E22-3CBC-4861-B231-320D055472B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E758E22-3CBC-4861-B231-320D055472B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
