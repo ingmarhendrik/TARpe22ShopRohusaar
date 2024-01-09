@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TARpe22Shop.Core\TARpe22ShopRohusaar.Core.csproj" />
     <ProjectReference Include="..\TARpe22Shop.Data\TARpe22ShopRohusaar.Data.csproj" />
   </ItemGroup>
 

@@ -1,10 +1,12 @@
-﻿using Nancy.Json;
+﻿using Nancy;
+using Nancy.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using TARpe22ShopRohusaar.ApplicationServices.Services;
 using TARpe22ShopRohusaar.Core.Dto.WeatherDtos;
 
 namespace TARpe22ShopRohusaar.ApplicationServices.Services

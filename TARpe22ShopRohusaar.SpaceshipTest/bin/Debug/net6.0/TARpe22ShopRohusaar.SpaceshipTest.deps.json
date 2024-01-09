@@ -2222,6 +2222,7 @@
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Nancy": "2.0.0",
+          "TARpe22ShopRohusaar.Core": "1.0.0",
           "TARpe22ShopRohusaar.Data": "1.0.0"
         },
         "runtime": {

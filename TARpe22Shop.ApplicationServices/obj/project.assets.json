@@ -8344,6 +8344,7 @@
       "Microsoft.AspNetCore.Hosting >= 2.2.7",
       "Microsoft.AspNetCore.Http.Features >= 5.0.17",
       "Nancy >= 2.0.0",
+      "TARpe22ShopRohusaar.Core >= 1.0.0",
       "TARpe22ShopRohusaar.Data >= 1.0.0"
     ]
   },
@@ -8380,6 +8381,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\TARpe22ShopRohusaar.Core.csproj": {
+              "projectPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\TARpe22ShopRohusaar.Core.csproj"
+            },
             "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\TARpe22ShopRohusaar.Data.csproj": {
               "projectPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\TARpe22ShopRohusaar.Data.csproj"
             }

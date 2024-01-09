@@ -1,4 +1,5 @@
-﻿using TARpe22ShopRohusaar.Core.Dto.WeatherDtos;
+﻿using System;
+using TARpe22ShopRohusaar.Core.Dto.WeatherDtos;
 
 namespace TARpe22ShopRohusaar.Models.Weather
 {
