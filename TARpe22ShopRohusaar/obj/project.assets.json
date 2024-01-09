@@ -15,6 +15,19 @@
           }
         }
       },
+      "Humanizer.Core/2.8.26": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MailKit/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -313,6 +326,26 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Design/6.0.23": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "2.8.26",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.23"
+        },
+        "compile": {
+          "lib/net6.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/6.0.23": {
@@ -2755,6 +2788,23 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "TARpe22ShopRohusaar.ApplicationServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MailKit": "4.3.0",
+          "Microsoft.AspNetCore.Hosting": "2.2.7",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
+          "Nancy": "2.0.0",
+          "TARpe22ShopRohusaar.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TARpe22ShopRohusaar.ApplicationServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TARpe22ShopRohusaar.ApplicationServices.dll": {}
+        }
+      },
       "TARpe22ShopRohusaar.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2805,6 +2855,22 @@
         "lib/netstandard2.0/BouncyCastle.Cryptography.dll",
         "lib/netstandard2.0/BouncyCastle.Cryptography.xml",
         "packageIcon.png"
+      ]
+    },
+    "Humanizer.Core/2.8.26": {
+      "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+      "type": "package",
+      "path": "humanizer.core/2.8.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "humanizer.core.2.8.26.nupkg.sha512",
+        "humanizer.core.nuspec",
+        "lib/netstandard1.0/Humanizer.dll",
+        "lib/netstandard1.0/Humanizer.xml",
+        "lib/netstandard2.0/Humanizer.dll",
+        "lib/netstandard2.0/Humanizer.xml",
+        "logo.png"
       ]
     },
     "MailKit/4.3.0": {
@@ -3168,6 +3234,21 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.6.0.23.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Design/6.0.23": {
+      "sha512": "TWyK4ymmvQefroVAlEmM+uzbvwQAo8XQ1AENAvsex10J595D33o+RLfvx74upYWx2QlBLGCOHR786T9KovAQqw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.design/6.0.23",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/net6.0/Microsoft.EntityFrameworkCore.Design.props",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
+        "microsoft.entityframeworkcore.design.6.0.23.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.23": {
@@ -8327,6 +8408,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "TARpe22ShopRohusaar.ApplicationServices/1.0.0": {
+      "type": "project",
+      "path": "../TARpe22Shop.ApplicationServices/TARpe22ShopRohusaar.ApplicationServices.csproj",
+      "msbuildProject": "../TARpe22Shop.ApplicationServices/TARpe22ShopRohusaar.ApplicationServices.csproj"
+    },
     "TARpe22ShopRohusaar.Data/1.0.0": {
       "type": "project",
       "path": "../TARpe22Shop.Data/TARpe22ShopRohusaar.Data.csproj",
@@ -8341,9 +8427,10 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "MailKit >= 4.3.0",
-      "Microsoft.AspNetCore.Hosting >= 2.2.7",
-      "Microsoft.AspNetCore.Http.Features >= 5.0.17",
-      "Nancy >= 2.0.0",
+      "Microsoft.EntityFrameworkCore >= 6.0.23",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.23",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.23",
+      "TARpe22ShopRohusaar.ApplicationServices >= 1.0.0",
       "TARpe22ShopRohusaar.Data >= 1.0.0"
     ]
   },
@@ -8354,11 +8441,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.ApplicationServices\\TARpe22ShopRohusaar.ApplicationServices.csproj",
-      "projectName": "TARpe22ShopRohusaar.ApplicationServices",
-      "projectPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.ApplicationServices\\TARpe22ShopRohusaar.ApplicationServices.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22ShopRohusaar\\TARpe22ShopRohusaar.csproj",
+      "projectName": "TARpe22ShopRohusaar",
+      "projectPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22ShopRohusaar\\TARpe22ShopRohusaar.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.ApplicationServices\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22ShopRohusaar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8380,6 +8467,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.ApplicationServices\\TARpe22ShopRohusaar.ApplicationServices.csproj": {
+              "projectPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.ApplicationServices\\TARpe22ShopRohusaar.ApplicationServices.csproj"
+            },
             "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\TARpe22ShopRohusaar.Data.csproj": {
               "projectPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\TARpe22ShopRohusaar.Data.csproj"
             }
@@ -8400,17 +8490,19 @@
             "target": "Package",
             "version": "[4.3.0, )"
           },
-          "Microsoft.AspNetCore.Hosting": {
+          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[2.2.7, )"
+            "version": "[6.0.23, )"
           },
-          "Microsoft.AspNetCore.Http.Features": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[5.0.17, )"
+            "version": "[6.0.23, )"
           },
-          "Nancy": {
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "[6.0.23, )"
           }
         },
         "imports": [
@@ -8425,6 +8517,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

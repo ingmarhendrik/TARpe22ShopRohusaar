@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TYM6wvlDxBheOs8cBTFcjFq8jziajm+8q11Y4M+1L56bLItVjW3mCNgSZYfMghvdkwiB2Wik9tEfZqiAUKYKBA==",
+  "dgSpecHash": "WV5HEPzD5AG5Ul9P6EvxmEB9gNzoGbvcbv+h+q/FJoLLiRvpC4YnADh9GV9a2+fiGq5TQgYS29f4SgHBPBDhMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.ApplicationServices\\TARpe22ShopRohusaar.ApplicationServices.csproj",
+  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22ShopRohusaar\\TARpe22ShopRohusaar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\opilane\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\mailkit\\4.3.0\\mailkit.4.3.0.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.aspnetcore.hosting\\2.2.7\\microsoft.aspnetcore.hosting.2.2.7.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
@@ -21,6 +22,7 @@
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.23\\microsoft.entityframeworkcore.6.0.23.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.23\\microsoft.entityframeworkcore.abstractions.6.0.23.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.23\\microsoft.entityframeworkcore.analyzers.6.0.23.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.23\\microsoft.entityframeworkcore.design.6.0.23.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.23\\microsoft.entityframeworkcore.relational.6.0.23.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.23\\microsoft.entityframeworkcore.sqlserver.6.0.23.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
