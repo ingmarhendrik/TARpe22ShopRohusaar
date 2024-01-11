@@ -18,6 +18,7 @@ namespace TARpe22ShopRohusaar.ApplicationServices.Services
             //City Name = "Tallinn, EE" Location = "EUR|EE|EN001|TALLINN" Country = "Estonia"
 
             string apikey = "UoJSCG3lbTnHIA9VEMQbeILRapsOWdQx";
+
             var url = $"http://dataservice.accuweather.com/forecasts/v1/daily/1day/127964?apikey=UoJSCG3lbTnHIA9VEMQbeILRapsOWdQx&metric=true";
 
             using (WebClient client = new WebClient())

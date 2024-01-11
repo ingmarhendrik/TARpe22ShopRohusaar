@@ -23,7 +23,8 @@ namespace TARpe22ShopRohusaar.ApplicationServices.Services
             //City Name = "Tallinn, EE" Location = "EUR|EE|EN001|TALLINN" Country = "Estonia"
 
             string apikey = "9f5e058e16777cbc9cdb78ae841aff58";
-            var url = $"http://api.openweathermap.org/geo/1.0/direct?q=Tallinn&limit=5&appid=9f5e058e16777cbc9cdb78ae841aff58";
+            string city = "Tallinn";
+            var url = $"https://api.openweathermap.org/data/2.5/weather?q=Tallinn&units=metric&APPID=9f5e058e16777cbc9cdb78ae841aff58";
 
             using (WebClient client = new WebClient())
             {
