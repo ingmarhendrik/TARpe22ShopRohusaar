@@ -12,8 +12,9 @@ builder.Services.AddDbContext<TARpe22ShopRohusaarContext>(OptionsBuilderConfigur
 builder.Services.AddScoped<ISpaceshipsServices, SpaceshipsServices>();
 builder.Services.AddScoped<IFilesServices, FilesServices>();
 builder.Services.AddScoped<IRealEstatesServices, RealEstatesServices>();
-builder.Services.AddScoped<ICarsServices, CarsServices>();
 builder.Services.AddScoped<IWeatherForecastsServices, WeatherForecastsServices>();
+builder.Services.AddScoped<IWeatherForecastsServices, WeatherForecastsServicesOW>();
+
 builder.Services.AddScoped<IEmailService, EmailService>();
 
 var app = builder.Build();

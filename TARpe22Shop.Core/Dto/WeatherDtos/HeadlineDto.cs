@@ -27,7 +27,7 @@ namespace TARpe22ShopRohusaar.Core.Dto.WeatherDtos
         public string MobileLink { get; set; }
         [JsonPropertyName("Link")]
         public string Link { get; set; }
-        
+
         public Temperature Temperature { get; set; }
         public Day Day { get; set; }
         public Night Night { get; set; }

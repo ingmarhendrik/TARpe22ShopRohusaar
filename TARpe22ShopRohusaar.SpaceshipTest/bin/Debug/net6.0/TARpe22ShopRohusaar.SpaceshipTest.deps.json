@@ -2221,7 +2221,9 @@
           "MailKit": "4.3.0",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "Microsoft.AspNetCore.Http.Features": "5.0.17",
+          "Microsoft.NET.Test.Sdk": "17.8.0",
           "Nancy": "2.0.0",
+          "TARpe22ShopRohusaar.Core": "1.0.0",
           "TARpe22ShopRohusaar.Data": "1.0.0"
         },
         "runtime": {
@@ -2231,7 +2233,8 @@
       "TARpe22ShopRohusaar.Core/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http": "2.2.2",
-          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
+          "Microsoft.NET.Test.Sdk": "17.8.0"
         },
         "runtime": {
           "TARpe22ShopRohusaar.Core.dll": {}
@@ -2241,6 +2244,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.25",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.23",
+          "Microsoft.NET.Test.Sdk": "17.8.0",
           "TARpe22ShopRohusaar.Core": "1.0.0"
         },
         "runtime": {

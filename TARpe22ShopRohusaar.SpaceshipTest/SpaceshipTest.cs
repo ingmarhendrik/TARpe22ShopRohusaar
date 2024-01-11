@@ -70,6 +70,16 @@ namespace TARpe22ShopRohusaar.SpaceshipTest
         //{
 
         //}
+
+        //[Fact]
+        //public async Task ShouldNot_DeleteByIdSpaceship_WhenDidNotDeleteSpaceship()
+        //{
+
+        //}
+        //[Fact]
+        //public async Task ShouldNot_UpdateSpaceship_WhenNotUpdateData()
+        //{
+        //}
         [Fact]
         public async Task Should_UpdateSpaceship_WhenUpdateData()
         {
@@ -109,15 +119,6 @@ namespace TARpe22ShopRohusaar.SpaceshipTest
             Assert.Equal(spaceship.EnginePower, dto.EnginePower);
         }
 
-        //[Fact]
-        //public async Task ShouldNot_DeleteByIdSpaceship_WhenDidNotDeleteSpaceship()
-        //{
-
-        //}
-        //[Fact]
-        //public async Task ShouldNot_UpdateSpaceship_WhenNotUpdateData()
-        //{
-        //}
 
             private SpaceshipDto MockSpaceshipData()
         {

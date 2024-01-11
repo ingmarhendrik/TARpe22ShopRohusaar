@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\TARpe22ShopRohusaar.Data.csproj": {}
+    "C:\\Users\\opilane\\Documents\\TARpe22ShopRohusaar2\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\TARpe22ShopRohusaar.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\TARpe22ShopRohusaar.Core.csproj": {
+    "C:\\Users\\opilane\\Documents\\TARpe22ShopRohusaar2\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\TARpe22ShopRohusaar.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\TARpe22ShopRohusaar.Core.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\Documents\\TARpe22ShopRohusaar2\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\TARpe22ShopRohusaar.Core.csproj",
         "projectName": "TARpe22ShopRohusaar.Core",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\TARpe22ShopRohusaar.Core.csproj",
+        "projectPath": "C:\\Users\\opilane\\Documents\\TARpe22ShopRohusaar2\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\TARpe22ShopRohusaar.Core.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\Documents\\TARpe22ShopRohusaar2\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,6 +55,10 @@
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
             }
           },
           "imports": [
@@ -70,26 +77,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\TARpe22ShopRohusaar.Data.csproj": {
+    "C:\\Users\\opilane\\Documents\\TARpe22ShopRohusaar2\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\TARpe22ShopRohusaar.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\TARpe22ShopRohusaar.Data.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\Documents\\TARpe22ShopRohusaar2\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\TARpe22ShopRohusaar.Data.csproj",
         "projectName": "TARpe22ShopRohusaar.Data",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\TARpe22ShopRohusaar.Data.csproj",
+        "projectPath": "C:\\Users\\opilane\\Documents\\TARpe22ShopRohusaar2\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\TARpe22ShopRohusaar.Data.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\Documents\\TARpe22ShopRohusaar2\\TARpe22ShopRohusaar\\TARpe22Shop.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -103,8 +113,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\TARpe22ShopRohusaar.Core.csproj": {
-                "projectPath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\TARpe22ShopRohusaar.Core.csproj"
+              "C:\\Users\\opilane\\Documents\\TARpe22ShopRohusaar2\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\TARpe22ShopRohusaar.Core.csproj": {
+                "projectPath": "C:\\Users\\opilane\\Documents\\TARpe22ShopRohusaar2\\TARpe22ShopRohusaar\\TARpe22Shop.Core\\TARpe22ShopRohusaar.Core.csproj"
               }
             }
           }
@@ -132,6 +142,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.23, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
             }
           },
           "imports": [
@@ -150,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
