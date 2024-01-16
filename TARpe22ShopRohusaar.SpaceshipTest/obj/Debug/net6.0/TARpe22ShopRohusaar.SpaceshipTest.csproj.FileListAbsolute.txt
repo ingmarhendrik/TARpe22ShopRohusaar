@@ -1054,3 +1054,8 @@ C:\Users\opilane\Documents\TARpe22ShopRohusaar2\TARpe22ShopRohusaar\TARpe22ShopR
 C:\Users\opilane\Documents\TARpe22ShopRohusaar2\TARpe22ShopRohusaar\TARpe22ShopRohusaar.SpaceshipTest\obj\Debug\net6.0\TARpe22ShopRohusaar.SpaceshipTest.pdb
 C:\Users\opilane\Documents\TARpe22ShopRohusaar2\TARpe22ShopRohusaar\TARpe22ShopRohusaar.SpaceshipTest\obj\Debug\net6.0\TARpe22ShopRohusaar.SpaceshipTest.genruntimeconfig.cache
 C:\Users\opilane\Documents\TARpe22ShopRohusaar2\TARpe22ShopRohusaar\TARpe22ShopRohusaar.SpaceshipTest\obj\Debug\net6.0\ref\TARpe22ShopRohusaar.SpaceshipTest.dll
+C:\Users\opilane\source\repos\TARpe22ShopRohusaar\TARpe22ShopRohusaar\TARpe22ShopRohusaar.SpaceshipTest\obj\Debug\net6.0\TARpe22ShopRohusaar.SpaceshipTest.csproj.AssemblyReference.cache
+C:\Users\opilane\source\repos\TARpe22ShopRohusaar\TARpe22ShopRohusaar\TARpe22ShopRohusaar.SpaceshipTest\obj\Debug\net6.0\TARpe22ShopRohusaar.SpaceshipTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\source\repos\TARpe22ShopRohusaar\TARpe22ShopRohusaar\TARpe22ShopRohusaar.SpaceshipTest\obj\Debug\net6.0\TARpe22ShopRohusaar.SpaceshipTest.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\TARpe22ShopRohusaar\TARpe22ShopRohusaar\TARpe22ShopRohusaar.SpaceshipTest\obj\Debug\net6.0\TARpe22ShopRohusaar.SpaceshipTest.AssemblyInfo.cs
+C:\Users\opilane\source\repos\TARpe22ShopRohusaar\TARpe22ShopRohusaar\TARpe22ShopRohusaar.SpaceshipTest\obj\Debug\net6.0\TARpe22ShopRohusaar.SpaceshipTest.csproj.CoreCompileInputs.cache

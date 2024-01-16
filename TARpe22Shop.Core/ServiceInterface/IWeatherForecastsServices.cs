@@ -1,10 +1,15 @@
-﻿using TARpe22ShopRohusaar.Core.Dto.WeatherDtos;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TARpe22ShopRohusaar.Core.Dto.WeatherDtos;
 
-namespace TARpe22ShopRohusaar.ApplicationServices.Services
+namespace TARpe22ShopRohusaar.Core.ServiceInterface
 {
     public interface IWeatherForecastsServices
     {
-        Task<WeatherResultDto> WeatherDetail(WeatherResultDto dto);
-        Task<WeatherResultDtoOW> WeatherDetailOW(WeatherResultDtoOW dto);
+        public Task<WeatherResultDto> WeatherDetail(WeatherResultDto dto);
+        public Task<WeatherResultDtoOW> WeatherDetailOW(WeatherResultDtoOW dto);
     }
 }
