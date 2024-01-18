@@ -4,14 +4,14 @@ using TARpe22ShopRohusaar.Core.ServiceInterface;
 using TARpe22ShopRohusaar.Core.Dto.WeatherDtos;
 using TARpe22ShopRohusaar.Models.Weather;
 
-namespace TARpe22ShopVaitmaa.Controllers
+namespace TARpe22ShopRohusaar.Controllers
 {
-    public class OpenWeatherController : Controller
+    public class WeatherForecastsControllerOW : Controller
     {
-        private readonly IWeatherForecastsServices _openWeatherServices;
-        public OpenWeatherController(IWeatherForecastsServices weatherForecastServices)
+        private readonly IWeatherForecastsServices _weatherForecastsServicesOW;
+        public WeatherForecastsControllerOW(IWeatherForecastsServices weatherForecastsServicesOW)
         {
-            _openWeatherServices = weatherForecastServices;
+            _weatherForecastsServicesOW = weatherForecastsServicesOW;
         }
 
         public IActionResult Index()
@@ -29,7 +29,7 @@ namespace TARpe22ShopVaitmaa.Controllers
             {
                 WeatherResultDtoOW dto = new();
                 dto.City = city;
-                _openWeatherServices.WeatherDetailOW(dto);
+                _weatherForecastsServicesOW.WeatherDetailOW(dto);
 
                 WeatherViewModelOW vm = new()
                 {

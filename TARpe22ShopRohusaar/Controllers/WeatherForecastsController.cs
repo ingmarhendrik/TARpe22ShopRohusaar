@@ -4,7 +4,7 @@ using TARpe22ShopRohusaar.Core.ServiceInterface;
 using TARpe22ShopRohusaar.Models.Weather;
 using TARpe22ShopRohusaar.ApplicationServices.Services;
 
-namespace TARpe22ShopVaitmaa.Controllers
+namespace TARpe22ShopRohusaar.Controllers
 {
     public class WeatherForecastsController : Controller
     {
