@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K5mKlhFNDvYm6jcN3ZLCvEIu2Mbjw5nFpSkTkHZyZf1oxcHfrh+6F4ek2sI0IceEHzaRa6tJyV9vDQ31HgZJHg==",
+  "dgSpecHash": "72EVD7a542kmNxiJeDsIhgqEzAxDop1PcQjWrrxtddPukzNMtOzc1owXGqRjOr+vbse4fYzRvVjknGz4jodD0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22ShopRohusaar.SpaceshipTest\\TARpe22ShopRohusaar.SpaceshipTest.csproj",
+  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopRohusaar\\TARpe22ShopRohusaar\\TARpe22ShopRohusaar.SpaceshipTest\\TARpe22ShopRohusaar.SpaceshipTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\opilane\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\mailkit\\4.3.0\\mailkit.4.3.0.nupkg.sha512",
