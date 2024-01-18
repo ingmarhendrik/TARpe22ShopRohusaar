@@ -59,7 +59,7 @@ namespace TARpe22ShopRohusaar.ApplicationServices.Services
             return dto;
         }
 
-        public async Task<WeatherResultDtoOW> OpenWeatherDetail(WeatherResultDtoOW dto)
+        public async Task<WeatherResultDtoOW> WeatherDetailOW(WeatherResultDtoOW dto)
         {
             string apikey = "e294f7c54fe454ddfe2131bbe603db4b";
             string city = dto.City;
